@@ -1,0 +1,139 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    text-align: center;
+    
+
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 150px;
+    
+}
+.main {
+    
+    display: flex;
+    margin: 25px;
+}
+
+
+ .text {
+    top: 50%;
+
+    max-width: 400px;
+    opacity: .7;
+    margin: 0 auto;
+ }
+ .about {
+    color: #fff;
+    background: #2c3e50;
+    font-size: 20px;
+    padding: 78px; 
+    text-transform: capitalize;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: -15px;
+    margin-left: -15px;
+
+
+    
+    
+
+}
+.about h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1;
+    
+
+        
+    
+}
+.line {
+    max-width: 250px;
+    border-top: solid 5px;
+    margin: 25px auto 30px;
+}
+
+.work {
+    font-size: 3em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 55px;
+    padding: 50px;
+}
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+    
+  }
+  
+        
+  nav ul li {
+    margin:  10px;
+    list-style: none;
+    
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+ }
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, textarea, button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.message {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.message.success {
+    display: block;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #333;
+    color: white;
+    margin-top: -10px;
+    
+  }
